@@ -1,0 +1,35 @@
+{
+    "data": [
+      {
+        "id": "e7a7620c-7733-46cb-baa5-099b2f89420f",
+        "sku": "rh-001",
+        "name": "Product #1"
+      },
+      {
+        "id": "11148d68-6a73-4682-9025-0d4e6ed4872d",
+        "sku": "rh-002",
+        "name": "Product #2"
+      },
+      {
+        "id": "fee74e89-0c5c-4abb-82cf-71a04ccd4eaf",
+        "sku": "rh-003",
+        "name": "Product #3"
+      },
+      {
+        "id": "2c9459a5-fcaf-458c-8895-d38c2f5f7a39",
+        "sku": "rh-004",
+        "name": "Product #4"
+      },
+      {
+        "id": "e24ca7d4-c224-4fde-905c-aeb203486ce0",
+        "sku": "rh-005",
+        "name": "Product #5"
+      },
+      {
+        "id": "d52c91ae-ae6a-4534-845c-ff97043b04fe",
+        "sku": "rh-006",
+        "name": "Product #6"
+      }
+    ]
+  }
+  
