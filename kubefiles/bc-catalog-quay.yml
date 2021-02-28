@@ -1,0 +1,27 @@
+kind: BuildConfig
+apiVersion: build.openshift.io/v1
+metadata:
+  name: catalog-service
+  labels:
+    build: catalog-service
+    app: catalog-service
+spec:
+  source:
+    binary: {}
+  output:
+    to:
+      kind: DockerImage
+      name: quay.io/psolarvi/catalog-service
+    pushSecret:
+      name: quay-credentials
+    imageLabels:
+    - name: "language"
+      value: "python"
+
+  postCommit: {}
+  resources: {}
+  strategy:
+    dockerStrategy:
+      dockerfilePath: ./Dockerfile
+    type: Docker
+
